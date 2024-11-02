@@ -1,34 +1,30 @@
 # Python-Compressor
-File Compressor/Decompressor GUI
+
 This is a simple GUI application to compress multiple files into a single ZIP archive or decompress ZIP files into a folder. The application is built with Python's tkinter for the graphical interface and zipfile for compression/decompression functionality.
 
-Features
-Select multiple files to compress into a ZIP file.
-Choose a name for the output ZIP file.
-Select a ZIP file to decompress and specify the destination folder.
-User-friendly GUI with prompts for each action.
-Requirements
-Python 3.x
-Installation
-Clone or download this repository to your local machine.
+**Features** <br/>
+Select multiple files to compress into a ZIP file.<br/>
+Choose a name for the output ZIP file.<br/>
+Select a ZIP file to decompress and specify the destination folder.<br/>
+User-friendly GUI with prompts for each action.<br/>
+Requirements<br/>
+Python 3<br/>
 
-Make sure you have Python 3 installed. You can check your Python version with:
+**Installation**<br/>
+Clone or download this repository to your local machine.<br/>
+Make sure you have Python 3 installed. You can check your Python version with:<br/>
+- ```python3 --version```
+- No external libraries are required beyond the Python Standard Library.<br/>
 
-bash
-Copy code
-python3 --version
-No external libraries are required beyond the Python Standard Library.
+**Project Structure**<br/>
+- compressor.py: Handles file compression logic.<br/>
+- decompressor.py: Handles file decompression logic.<br/>
+- app.py: Defines the GUI layout and connects button actions to compression/decompression functions.<br/>
+- main.py: Initializes and runs the GUI.<br/>
 
-Project Structure
-compressor.py: Handles file compression logic.
-decompressor.py: Handles file decompression logic.
-app.py: Defines the GUI layout and connects button actions to compression/decompression functions.
-main.py: Initializes and runs the GUI.
-Usage
-Open a terminal and navigate to the project folder.
+**Usage**<br/>
+Open a terminal and navigate to the project folder.<br/>
 
-Run the following command to launch the GUI:
+Run the following command to launch the GUI:<br/>
 
-bash
-Copy code
-python main.py
+```python main.py```
